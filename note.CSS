@@ -1,0 +1,55 @@
+/*CSS 속성 사용법*/
+
+<style>
+  a {
+    color:black;
+  }
+</style>
+
+/*a링크에 모두 색상 입력 CSS로 해석함*/
+
+<a herf="000" style="color:111;text-decoration:222">
+/*// 해석 : 이 링크는 000으로 연결되어 있으며 111색상의 폰트와 222의 폰트 디자인*/
+
+<style>
+  글자태그(h1) {
+    font-size: 000
+    text-align: center;
+  }
+</style>
+/*해석 : 해당 텍스트 사이즈, 텍스트 가운데 정렬*/
+
+class="000" <style> .000 {} </style> /*> 그룹으로 묶은 CSS 적용
+  앞에 .을 꼭 붙혀야함*/
+
+  id="active" + <style> #active {} </style>
+    /*class 선택자보다 상위 > 순서 상관없이 id 선택자가 적용됨
+    class > 태그 선택자 마지막에 등장한 선택자가 나타남*/
+
+    /*CSS box model*/
+    <DOCTYPE html>
+    <html>
+      <head>
+        <title></title>
+        <meta charset="utf-8">
+        <style>
+         h1 {
+           border:5px soild red;
+           padding:20px;
+           margin:20px;
+           display:block;
+           width:100px;
+
+         }
+          </style>
+      </head>
+        <body>
+         <h1>carry<h1>
+        </body>
+
+      </html>
+
+      /*<div> 블록 태그 무색무취
+      <span> 무색무취*/
+/*////////테두리를 이용한 웹 디자인 2.html 예제에 필기 //////////
+////////그리드 사용법 2.html에 필기///////////*/
