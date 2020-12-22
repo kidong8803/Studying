@@ -1,0 +1,27 @@
+CSS 속성 사용법
+
+<style>
+  a {
+    color:black;
+  }
+</style>
+
+a링크에 모두 색상 입력 CSS로 해석함
+
+<a herf="000" style="color:111;text-decoration:222">
+// 해석 : 이 링크는 000으로 연결되어 있으며 111색상의 폰트와 222의 폰트 디자인
+
+<style>
+  글자태그(h1) {
+    font-size: 000
+    text-align: center;
+  }
+</style>
+해석 : 해당 텍스트 사이즈, 텍스트 가운데 정렬
+
+class="000" <style> .000 {} </style> > 그룹으로 묶은 CSS 적용
+  앞에 .을 꼭 붙혀야함
+
+  id="active" + <style> #active {} </style>
+    class 선택자보다 상위 > 순서 상관없이 id 선택자가 적용됨
+    class > 태그 선택자 마지막에 등장한 선택자가 나타남
