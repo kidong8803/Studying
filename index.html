@@ -1,17 +1,67 @@
 <!doctype html>
 <html>
 <head>
-<title>LOLchampion - info</title>
-<meta charset="utf-8">
+  <title>LOLchampion - info</title>
+  <meta charset="utf-8">
+  <style>
+  body {
+    margin:0
+  }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:60px;
+      text-align:center;
+      border-bottom: 1px solid grey;
+      margin:0;
+      padding:30px;
+    }
+    #grid{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .image {
+     margin:20px;
+     margin-top: 30px;
+     margin-bottom: 5px;
+     padding-left: 70px;
+    }
+    #grid2{
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .name {
+      padding-left: 180px;
+    }
+    .name2 {
+      padding-left: 190px;
+    }
+    .name3 {
+      padding-left: 200px;
+    }
+
+
+    }
+  </style>
+
 </head>
 
 <body>
-  <h1><a href="index.html">LOL champion information</a></h1>
-<ol>
-  <li><a href="1.html">오른</a></li>
-  <li><a href="2.html">말파이트</a></li>
-  <li><a href="3.html">카밀</a></li>
-</ol>
+  <h1><a href="index.html" style="color:red;text-decoration:underline;">
+    LOL champion<br>information</a></h1>
+
+<div id="grid">
+  <a href="1.html"><img src="ornn_icon.jpg" class="image"></a>
+  <a href="2.html"><img src="Malphite_icon.jpg" class="image"></a>
+  <a href="3.html"><img src="camille_icon.jpg" class="image"><br></a>
+</div>
+  <div id="grid2">
+    <a href="1.html" class="name2">오른</a>
+    <a href="2.html" class="name">말파이트</a>
+    <a href="3.html" class="name3">카밀</a>
+  </div>
 
 <!-- 사용자분석은 구글 애널리틱스에서 소스 복붙-->
 <strong><!--채팅 기능은 Tawk에 들어가서 소스를 복붙!--></strong>

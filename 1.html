@@ -6,32 +6,59 @@
   <title>LOLchampion - Ornn</title>
   <meta charset="utf-8"> <!-- meta charset=""> = UTF-8로 맞추기 > 한글이 나오지 않을 때 확인-->
   <style>
+    body {
+      margin: 0;
+    }
     a {
       color:black;
       text-decoration: none;
+      font-size: 20px;
     }
     h1 {
       font-size:60px;
       text-align:center;
+      border-bottom: 1px solid grey;
+      margin:0;
+      padding: 30px;
+    }
+    ol {
+      border-right: 1px solid grey;
+      width:100px;
+      margin:0;
+      padding:30px;
+    }
+    #grid {
+      display:grid;
+      grid-template-columns: 180px 1fr;
+    }
+    #grid ol {
+      padding-left: 40px;
+    }
+    #article {
+      padding-left: 25px;
+    }
+    .active {
+      color:red;
     }
   </style>
 </head>
 
 <body> <!-- //본문을 나타내는 태그-->
-  <h1><a href="index.html">LOL champion information</font></a></h1>
+  <h1><a href="index.html" style="font-size:60px;">LOL champion<br> information</a></h1>
     <!-- //<a>00</a> 링크를 걸어주는 태그 / href="000" > 이동하고싶은 링크를 삽입-->
     <!-- //<h1~6> > 헤드라인을 만들 때 쓰는 코드 숫자 커질수록 작아짐-->
     <!-- CSS=폰트 색상은 <font color="00"-->
 
+<div id="grid">
+  <ol> <!-- //ordered list 리스트가 자동으로 넘버링됨 <li>와 부모자식 태그-->
+    <li><a href="1.html" class="active">오른</a></li>
+    <li><a href="2.html">말파이트</a></li>
+    <li><a href="3.html">카밀</a></li>
+  </ol>
 
-<ol> <!-- //ordered list 리스트가 자동으로 넘버링됨 <li>와 부모자식 태그-->
-  <li><a href="1.html">오른</a></li>
-  <li><a href="2.html">말파이트</a></li>
-  <li><a href="3.html">카밀</a></li>
-</ol>
-
-<h2><a href="https://kr.leagueoflegends.com/ko-kr/champions/ornn/" target="_blank" title="Ornn_info">오른</a></h2>
-<!-- //target="_blank" > 링크를 걸었을 때 새탭으로 열기, title="--" 링크 설명 툴팁-->
+ <div id="article">
+  <h2><a href="https://kr.leagueoflegends.com/ko-kr/champions/ornn/" target="_blank" title="Ornn_info">오른</a></h2>
+  <!-- //target="_blank" > 링크를 걸었을 때 새탭으로 열기, title="--" 링크 설명 툴팁-->
 
 <img src="Ornn.jpg" width="560px"><br>
 
@@ -79,7 +106,8 @@ gyroscope; picture-in-picture" allowfullscreen></iframe>
     진행 방향이 바뀐 정령은 부딪힌 모든 적을 공중으로 띄우며<br>
     전과 동일한 피해를 입히고 다시 불안정 상태로 만듭니다.<br>
   </p>
-
+</div>
+  </div>
 
   <!-- 댓글기능 > disqus에서 universalcode 댓글기능 복붙-->
     <p>
