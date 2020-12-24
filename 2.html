@@ -2,56 +2,16 @@
 <html>
 <head>
   <title>LOLchampion - Malphite</title>
-  <meta charset="utf-8">
-  <style>
-  body {
-    margin:0;
-  }
-    a {
-      color:black;
-      text-decoration: none;
-      font-size: 20px;
-    }
-    h1 {
-      font-size:60px;
-      text-align:center; /*텍스트 정렬 align*/
-      border-bottom: 1px solid grey; /*보더 바텀 > 밑줄 두께 / 줄 / 형태 색상 */
-      margin:0;
-      padding:30px;
-    }
-
-    ol {
-      border-right: 1px solid grey;
-      width: 100px;
-      margin:0;
-      padding: 30px;
-    }
-    #grid ol {
-      padding-left: 40px;
-    }
-    #article {
-      padding-left: 25px;
-    }
-
-    #grid {
-      display:grid; /*그리드를 사용할 때 <div id="grid">로 묶어준 후 display:grid;로 설정*/
-      grid-template-columns: 180px 1fr; /* 첫번째 그리드 180px 나머지를 후에 있는 그리드가 사용*/
-    }
-    #active {
-      color:red;
-    }
-    .saw {
-      color:black; /*class로 그룹을 묶고 CSS 속성을 적용할 때 앞에 .을 삽입*/
-    }
-  </style>
+    <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <h1><a href="index.html" style="font-size:60px;">LOL champion<br> information</a></h1>
 <div id="grid">
   <ol>
-    <li><a href="1.html" class="saw">오른</a></li>
-    <li><a href="2.html" class="saw" id="active">말파이트</a></li>
+    <li><a href="1.html">오른</a></li>
+    <li><a href="2.html" id="active">말파이트</a></li>
     <li><a href="3.html">카밀</a></li>
   </ol>
 

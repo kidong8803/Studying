@@ -48,8 +48,11 @@ class="000" <style> .000 {} </style> /*> 그룹으로 묶은 CSS 적용
         </body>
 
       </html>
-
+      /*class로 묶은 코드는 .class {}로 CSS 적용 가능
+      /*텍스트 정렬 align ex) text-align:center; =가운데 정렬*/
       /*<div> 블록 태그 무색무취
       <span> 무색무취*/
+      /*그리드를 사용할 때 <div id="grid">로 묶어준 후 display:grid;로 설정*/
+      /*grid-template-columns: 180px 1fr; /* 첫번째 그리드 180px 나머지를 후에 있는 그리드가 사용*/
 /*////////테두리를 이용한 웹 디자인 2.html 예제에 필기 //////////
 ////////그리드 사용법 2.html에 필기///////////*/
